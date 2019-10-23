@@ -9,6 +9,7 @@
 import UIKit
 
 class GameAgainstFriendViewController: UIViewController {
+    
     @IBOutlet weak var playerImageView: UIImageView!
     
 // MARK: - Life Cycle
@@ -17,10 +18,16 @@ class GameAgainstFriendViewController: UIViewController {
     }
     
     @IBAction func rockButtonTapped(_ sender: Any) {
+        playerImageView.image = UIImage(named: "rock")
+//        playerImageView.
     }
+    
     @IBAction func paperButtonTapped(_ sender: Any) {
+        playerImageView.image = UIImage(named: "paper")
     }
+    
     @IBAction func scissorButtonTapped(_ sender: Any) {
+        playerImageView.image = UIImage(named: "scissors")
     }
     
 }
