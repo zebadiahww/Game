@@ -22,13 +22,16 @@ class GameTypesViewController: UIViewController {
     
 // MARK: - Actions
     @IBAction func playComputerButtonTapped(_ sender: Any) {
+
     }
     @IBAction func playFriendButtonTapped(_ sender: Any) {
     }
     
 
 // MARK: - Navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "" {
+//            let destinationVC = segue.destination as? GameAgainstComputerViewController
+//        }
+//    }
 }
