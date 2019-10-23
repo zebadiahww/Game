@@ -9,9 +9,18 @@
 import UIKit
 
 class GameAgainstFriendViewController: UIViewController {
-
+    @IBOutlet weak var playerImageView: UIImageView!
+    
 // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    @IBAction func rockButtonTapped(_ sender: Any) {
+    }
+    @IBAction func paperButtonTapped(_ sender: Any) {
+    }
+    @IBAction func scissorButtonTapped(_ sender: Any) {
+    }
+    
 }
