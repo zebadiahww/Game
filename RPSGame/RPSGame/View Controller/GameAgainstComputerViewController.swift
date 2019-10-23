@@ -9,9 +9,19 @@
 import UIKit
 
 class GameAgainstComputerViewController: UIViewController {
-
+    @IBOutlet weak var computerImageView: UIImageView!
+    @IBOutlet weak var playerImageView: UIImageView!
+    @IBOutlet weak var winLoseLabel: UILabel!
+    
 // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    @IBAction func rockButtonTapped(_ sender: Any) {
+    }
+    @IBAction func paperButtonTapped(_ sender: Any) {
+    }
+    @IBAction func scissorsButtonTapped(_ sender: Any) {
+    }
+    
 }

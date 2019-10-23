@@ -10,6 +10,10 @@ import UIKit
 
 class GameTypesViewController: UIViewController {
 // MARK: - Outlets
+    @IBAction func playComputerButton(_ sender: Any) {
+    }
+    @IBAction func playFriendButton(_ sender: Any) {
+    }
     
 // MARK: - Life Cycle
     override func viewDidLoad() {
@@ -17,6 +21,10 @@ class GameTypesViewController: UIViewController {
     }
     
 // MARK: - Actions
+    @IBAction func playComputerButtonTapped(_ sender: Any) {
+    }
+    @IBAction func playFriendButtonTapped(_ sender: Any) {
+    }
     
 
 // MARK: - Navigation
