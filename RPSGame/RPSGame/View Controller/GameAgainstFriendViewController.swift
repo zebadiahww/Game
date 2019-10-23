@@ -10,6 +10,7 @@ import UIKit
 
 class GameAgainstFriendViewController: UIViewController {
     
+    @IBOutlet weak var playerLabelForZeb: UILabel!
     @IBOutlet weak var playerImageView: UIImageView!
     
 // MARK: - Life Cycle
