@@ -13,6 +13,7 @@
 		858D2E342360BFE400348203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 858D2E322360BFE400348203 /* Main.storyboard */; };
 		858D2E362360BFE500348203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858D2E352360BFE500348203 /* Assets.xcassets */; };
 		858D2E392360BFE500348203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 858D2E372360BFE500348203 /* LaunchScreen.storyboard */; };
+		E8B1B53A2360C8EC0093D06A /* GameStateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B1B5392360C8EC0093D06A /* GameStateFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		858D2E352360BFE500348203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		858D2E382360BFE500348203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		858D2E3A2360BFE500348203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B1B5392360C8EC0093D06A /* GameStateFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameStateFunctions.swift; path = RPSGame/HelperFiles/GameStateFunctions.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				858D2E432360C02300348203 /* View Controller */,
 				858D2E422360C01500348203 /* Model Controller */,
 				858D2E412360C00900348203 /* Model */,
+				E841E7B92360C544006036D9 /* HelperFiles */,
 				858D2E402360BFFE00348203 /* Resources */,
 				858D2E302360BFE400348203 /* ViewController.swift */,
 				858D2E322360BFE400348203 /* Main.storyboard */,
@@ -81,6 +84,7 @@
 		858D2E412360C00900348203 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E8B1B5392360C8EC0093D06A /* GameStateFunctions.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,6 +101,13 @@
 			children = (
 			);
 			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		E841E7B92360C544006036D9 /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HelperFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8B1B53A2360C8EC0093D06A /* GameStateFunctions.swift in Sources */,
 				858D2E312360BFE400348203 /* ViewController.swift in Sources */,
 				858D2E2D2360BFE400348203 /* AppDelegate.swift in Sources */,
 				858D2E2F2360BFE400348203 /* SceneDelegate.swift in Sources */,
@@ -317,7 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GQHR9QPNK6;
+				DEVELOPMENT_TEAM = J27FYKQAGV;
 				INFOPLIST_FILE = "$(SRCROOT)/RPSGame/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -335,7 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GQHR9QPNK6;
+				DEVELOPMENT_TEAM = J27FYKQAGV;
 				INFOPLIST_FILE = "$(SRCROOT)/RPSGame/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
