@@ -72,8 +72,12 @@
                                     <action selector="paperButtonTapped:" destination="ilp-yh-G8C" eventType="touchUpInside" id="xmc-nz-w0E"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Uh-64-T0H">
+                                <rect key="frame" x="87" y="160" width="240" height="437"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qL1-5e-38u">
-                                <rect key="frame" x="279" y="628" width="126" height="161"/>
+                                <rect key="frame" x="275" y="628" width="126" height="159"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="scissors"/>
                                 <connections>
@@ -81,10 +85,6 @@
                                     <action selector="scissorsButtonTapped:" destination="bYy-On-Up5" eventType="touchUpInside" id="8xE-yw-253"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Uh-64-T0H">
-                                <rect key="frame" x="87" y="318" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="0CP-Aj-dVq"/>
@@ -96,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fWe-AX-dql" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1048" y="810"/>
+            <point key="canvasLocation" x="1047.8260869565217" y="809.59821428571422"/>
         </scene>
         <!--Game Against Computer View Controller-->
         <scene sceneID="lrw-Z3-g5t">
