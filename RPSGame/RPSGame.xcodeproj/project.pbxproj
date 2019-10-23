@@ -13,7 +13,12 @@
 		858D2E342360BFE400348203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 858D2E322360BFE400348203 /* Main.storyboard */; };
 		858D2E362360BFE500348203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858D2E352360BFE500348203 /* Assets.xcassets */; };
 		858D2E392360BFE500348203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 858D2E372360BFE500348203 /* LaunchScreen.storyboard */; };
+		FCE6746A2360D07F00B4A8B8 /* GameTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE674692360D07F00B4A8B8 /* GameTypesViewController.swift */; };
+		FCE6746C2360D1E700B4A8B8 /* GameAgainstComputerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE6746B2360D1E700B4A8B8 /* GameAgainstComputerViewController.swift */; };
+		FCE6746E2360D1FA00B4A8B8 /* GameAgainstFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE6746D2360D1FA00B4A8B8 /* GameAgainstFriendViewController.swift */; };
+
 		E8B1B53A2360C8EC0093D06A /* GameStateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B1B5392360C8EC0093D06A /* GameStateFunctions.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,9 @@
 		858D2E352360BFE500348203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		858D2E382360BFE500348203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		858D2E3A2360BFE500348203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE674692360D07F00B4A8B8 /* GameTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTypesViewController.swift; sourceTree = "<group>"; };
+		FCE6746B2360D1E700B4A8B8 /* GameAgainstComputerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAgainstComputerViewController.swift; sourceTree = "<group>"; };
+		FCE6746D2360D1FA00B4A8B8 /* GameAgainstFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAgainstFriendViewController.swift; sourceTree = "<group>"; };
 		E8B1B5392360C8EC0093D06A /* GameStateFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameStateFunctions.swift; path = RPSGame/HelperFiles/GameStateFunctions.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -99,6 +107,9 @@
 		858D2E432360C02300348203 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FCE674692360D07F00B4A8B8 /* GameTypesViewController.swift */,
+				FCE6746B2360D1E700B4A8B8 /* GameAgainstComputerViewController.swift */,
+				FCE6746D2360D1FA00B4A8B8 /* GameAgainstFriendViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -183,7 +194,10 @@
 			files = (
 				E8B1B53A2360C8EC0093D06A /* GameStateFunctions.swift in Sources */,
 				858D2E312360BFE400348203 /* ViewController.swift in Sources */,
+				FCE6746C2360D1E700B4A8B8 /* GameAgainstComputerViewController.swift in Sources */,
+				FCE6746E2360D1FA00B4A8B8 /* GameAgainstFriendViewController.swift in Sources */,
 				858D2E2D2360BFE400348203 /* AppDelegate.swift in Sources */,
+				FCE6746A2360D07F00B4A8B8 /* GameTypesViewController.swift in Sources */,
 				858D2E2F2360BFE400348203 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
