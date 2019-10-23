@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ApF-4l-QOw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ApF-4l-QOw">
                                 <rect key="frame" x="77" y="542" width="101" height="30"/>
                                 <state key="normal" title="Play Computer"/>
                                 <connections>
@@ -24,7 +24,7 @@
                                     <segue destination="bYy-On-Up5" kind="show" id="b1u-rW-quO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUe-g6-xiT">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUe-g6-xiT">
                                 <rect key="frame" x="256" y="542" width="76" height="30"/>
                                 <state key="normal" title="Play Friend"/>
                                 <connections>
@@ -39,11 +39,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.99682146309999997" green="0.92541694640000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="qUe-g6-xiT" firstAttribute="leading" secondItem="ApF-4l-QOw" secondAttribute="trailing" constant="78" id="Psh-w3-wJz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cdj-6r-ort" secondAttribute="trailing" constant="27" id="Sb2-hi-85K"/>
                             <constraint firstItem="ApF-4l-QOw" firstAttribute="top" secondItem="Cdj-6r-ort" secondAttribute="bottom" constant="98" id="VcD-lc-WbI"/>
+                            <constraint firstItem="ApF-4l-QOw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="bDH-sa-ixt"/>
                             <constraint firstItem="Cdj-6r-ort" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="cGh-Ms-QbY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qUe-g6-xiT" secondAttribute="bottom" constant="290" id="gYI-kk-zLP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ApF-4l-QOw" secondAttribute="bottom" constant="290" id="glf-Fw-U1r"/>
                             <constraint firstItem="qUe-g6-xiT" firstAttribute="top" secondItem="Cdj-6r-ort" secondAttribute="bottom" constant="98" id="l88-fU-750"/>
                             <constraint firstItem="Cdj-6r-ort" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="rCv-AK-fX3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qUe-g6-xiT" secondAttribute="trailing" constant="82" id="ssG-3d-hQA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
