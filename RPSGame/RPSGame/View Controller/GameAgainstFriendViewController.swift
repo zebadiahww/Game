@@ -19,7 +19,6 @@ class GameAgainstFriendViewController: UIViewController {
     
     @IBAction func rockButtonTapped(_ sender: Any) {
         playerImageView.image = UIImage(named: "rock")
-//        playerImageView.
     }
     
     @IBAction func paperButtonTapped(_ sender: Any) {
