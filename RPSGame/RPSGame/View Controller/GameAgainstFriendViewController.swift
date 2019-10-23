@@ -20,14 +20,17 @@ class GameAgainstFriendViewController: UIViewController {
     
     @IBAction func rockButtonTapped(_ sender: Any) {
         playerImageView.image = UIImage(named: "rock")
+        playerLabelForZeb.text = "R O C K !"
     }
     
     @IBAction func paperButtonTapped(_ sender: Any) {
         playerImageView.image = UIImage(named: "paper")
+        playerLabelForZeb.text = "P A P E R !"
     }
     
     @IBAction func scissorButtonTapped(_ sender: Any) {
         playerImageView.image = UIImage(named: "scissors")
+        playerLabelForZeb.text = "S C I S S O R !"
     }
     
 }

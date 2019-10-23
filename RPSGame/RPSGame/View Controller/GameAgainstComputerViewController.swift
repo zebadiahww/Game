@@ -27,16 +27,19 @@ class GameAgainstComputerViewController: UIViewController {
         playerImageView.image = UIImage(named: "rock")
         setComputerImage()
         playerSign = .rock
+        setComputerImage()
     }
     @IBAction func paperButtonTapped(_ sender: Any) {
         playerImageView.image = UIImage(named: "paper")
         setComputerImage()
         playerSign = .paper
+        setComputerImage()
     }
     @IBAction func scissorsButtonTapped(_ sender: Any) {
         playerImageView.image = UIImage(named: "scissors")
         setComputerImage()
         playerSign = .scissors
+        setComputerImage()
     }
 
 // MARK: - Custom Methods
