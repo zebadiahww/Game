@@ -59,10 +59,12 @@ class GameAgainstComputerViewController: UIViewController {
     
     func winOrLose(result: gameResult) {
         switch result {
+            // If the computer wins
         case .win:
-            winLoseLabel.text = "You Won!"
-        case .lose:
             winLoseLabel.text = "You Lost :("
+            // If the computer loses
+        case .lose:
+            winLoseLabel.text = "You Won!"
         case .draw:
             winLoseLabel.text = "It's a Draw - Try Again!"
         default:

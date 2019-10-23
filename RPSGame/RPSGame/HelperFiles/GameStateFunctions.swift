@@ -15,7 +15,6 @@ enum gameResult {
 }
 
 //MARK: - Sign Strings
-#warning("Make sure to name the name of the images the same as these strings in order to pull. Delete this warning when finished")
 enum Sign {
     case rock, paper, scissors
     
