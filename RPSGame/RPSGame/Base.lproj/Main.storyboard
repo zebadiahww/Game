@@ -193,12 +193,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Win/Lose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMN-UM-UtR">
-                                <rect key="frame" x="171.5" y="329" width="71" height="22"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4oM-Wh-24j">
                                 <rect key="frame" x="141" y="638" width="126" height="160"/>
                                 <constraints>
@@ -210,6 +204,12 @@
                                     <action selector="paperButtonTapped:" destination="bYy-On-Up5" eventType="touchUpInside" id="UeP-W0-wb3"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Win/Lose" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMN-UM-UtR">
+                                <rect key="frame" x="112" y="329" width="185" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -228,9 +228,7 @@
                             <constraint firstItem="2Ro-t8-OtK" firstAttribute="top" secondItem="D0P-aE-vzY" secondAttribute="bottom" constant="31" id="XQJ-ni-3En"/>
                             <constraint firstItem="fJV-6A-l1x" firstAttribute="top" secondItem="eRT-D9-Qn3" secondAttribute="top" constant="20" id="Y46-WN-MM0"/>
                             <constraint firstItem="eRT-D9-Qn3" firstAttribute="bottom" secondItem="0Ok-7B-efM" secondAttribute="bottom" constant="63" id="bZx-Jq-4rL"/>
-                            <constraint firstItem="eRT-D9-Qn3" firstAttribute="trailing" secondItem="TMN-UM-UtR" secondAttribute="trailing" constant="171.5" id="ctD-9e-RTp"/>
                             <constraint firstItem="2Ro-t8-OtK" firstAttribute="leading" secondItem="eRT-D9-Qn3" secondAttribute="leading" constant="87" id="dLI-aW-Qlu"/>
-                            <constraint firstItem="TMN-UM-UtR" firstAttribute="leading" secondItem="eRT-D9-Qn3" secondAttribute="leading" constant="171.5" id="ebD-qg-7eS"/>
                             <constraint firstItem="eRT-D9-Qn3" firstAttribute="trailing" secondItem="fJV-6A-l1x" secondAttribute="trailing" constant="87" id="iuP-Ff-DZL"/>
                             <constraint firstItem="eRT-D9-Qn3" firstAttribute="trailing" secondItem="0Ok-7B-efM" secondAttribute="trailing" constant="13" id="jp8-aZ-9pk"/>
                             <constraint firstItem="eRT-D9-Qn3" firstAttribute="trailing" secondItem="2Ro-t8-OtK" secondAttribute="trailing" constant="87" id="kUb-T4-xiz"/>
